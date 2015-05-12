@@ -325,7 +325,6 @@ public class MapsActivity extends FragmentActivity implements GoogleMap.OnMapLon
                                 distanceToScreen = markerLocation.distanceTo(meLocation);
                                 distanceToScreen = (float) (distanceToScreen + 0.1*visibleCenter.distanceTo(meLocation));
                             }
-
                         }
                         circleMarker.setRadius(distanceToScreen);
                     } else {
